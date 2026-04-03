@@ -47,3 +47,21 @@ No arquivo "Tabelas", foram criadas as tabelas base no SQL Server
 Sempre antes de rodar o arquivo Python, resetar as tabelas com o arquivo "Reset de tabelas"
 
 ## Power BI
+
+O dashboard foi dividido em 4 vistas para perspectivas diferentes
+
+### Visão Executiva
+
+Perspectiva: criada para servir a gestão a empresa para ver a saúde financeira da empresa em uma aba.
+
+### Análise por Filial
+
+Perspectiva: para uma visão mais focada em cada filal foi esenvolvida esta aba.
+
+### DRE
+
+Perspectiva: uma aba onde pode ser visto e forma simples e rapida os lucros, despesas e custos em um gráfico de cascata.
+
+### Visão de análise
+
+Perspectica: desenvolvida com a intenção do uso para analistas, para verificar a fundo os dados de periodos e transações financeiras especificas.

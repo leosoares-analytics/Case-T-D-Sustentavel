@@ -1,5 +1,34 @@
 # Case-T-D-Sustentavel
 
+## Conteto
+
+## Escopo
+
+Desenvolvimento de um dashboard para controle financeira
+
+- Controlar caixa da empresa
+- Justificar necessidade de novos investimentos
+
+## Necessidades Primárias
+
+### Analises
+
+- Analise do faturamento por periodo e por loja
+- Faturamento médio mensal
+- Analise de lucro por periodo
+- Margem de Lucro Liquida
+
+### Filtros
+
+- Tempo
+- Filial
+
+## Glossário
+
+- Despesas: Gastos Administrativos
+- Custos: Gasto Operacionais
+- Receita: Receita de produtos e serviços que a empresa oferece
+
 ## Python
 
 No Python foram utilizadas as seguintes bibliotecas

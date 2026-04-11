@@ -46,6 +46,11 @@ No arquivo "Tabelas", foram criadas as tabelas base no SQL Server
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/bb0cc640-b03b-4443-bbb6-bc5dd9d92ccc" />
 Sempre antes de rodar o arquivo Python, resetar as tabelas com o arquivo "Reset de tabelas"
 
+## Inconsistências encontradas no tratamento de dados
+
+- Receitas com valore negativos --> Todas receitas dded produtos estão negativos, deve ser vasculhado se é algum bug, dados errados ou se a área está gerando prejuiso
+- A coluna "Conta_Nivel 4" tem valores duplicados que foram retirados
+
 ## Power BI
 
 O dashboard foi dividido em 4 vistas para perspectivas diferentes

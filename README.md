@@ -48,9 +48,7 @@ Sempre antes de rodar o arquivo Python, resetar as tabelas com o arquivo "Reset 
 
 ## Pipeline de dados
 
-Criar imagem
-
-Raw Tabels --> Staging --> Dedub --> View de consumo
+<img width="1216" height="1294" alt="Image" src="https://github.com/user-attachments/assets/64eb7b8e-3b9f-4cb6-8aa6-02eba0b463c1" />
 
 ## Inconsistências encontradas no tratamento de dados
 

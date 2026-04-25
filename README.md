@@ -54,8 +54,9 @@ Sempre antes de rodar o arquivo Python, resetar as tabelas com o arquivo "Reset 
 
 - Receitas com valore negativos --> Todas receitas dded produtos estão negativos, deve ser vasculhado se é algum bug, dados errados ou se a área está gerando prejuiso
 - A coluna "Conta_Nivel 4" tem valores duplicados que foram retirados
+- Desapesa não documentada no plano de contas, mas já usada "Comissão" --> Deve ser gerada uma reunião com o responsavel para ientificar em qual centro de custo e em qual melhor froma ddde documentar
 
-## Power BI
+## Vizualisação de dados (Power BI)
 
 O dashboard foi dividido em 4 vistas para perspectivas diferentes
 

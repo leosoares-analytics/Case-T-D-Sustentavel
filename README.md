@@ -1,27 +1,15 @@
 # Case-T-D-Sustentavel
 
-## Conteto
+## Conteto e Negócio
+
+A Greentech T&D Sustentável é uma empresa focada no combate ao desperdício de água, com meta de economizar 1 bilhão de litros até 2025. Com operações em mais de 30 cidades, a área financeira enfrentava um gargalo operacional: a consolidação de resultados levava até 5 dias por mês devido ao download manual de relatórios de cada filial.
 
 ## Escopo
 
-Desenvolvimento de um dashboard para controle financeira
-
-- Controlar caixa da empresa
-- Justificar necessidade de novos investimentos
-
-## Necessidades Primárias
-
-### Analises
-
-- Analise do faturamento por periodo e por loja
-- Faturamento médio mensal
-- Analise de lucro por periodo
-- Margem de Lucro Liquida
-
-### Filtros
-
-- Tempo
-- Filial
+Desenvolvimento de uma infraestrutura de dados end-to-end para:
+- Automatizar o pipeline de dados das filiais.
+- Monitorar o fluxo de caixa e a saúde financeira.
+- Dar suporte à tomada de decisão para novos investimentos e expansão da rede.
 
 ## Glossário
 
@@ -29,49 +17,51 @@ Desenvolvimento de um dashboard para controle financeira
 - Custos: Gasto Operacionais
 - Receita: Receita de produtos e serviços que a empresa oferece
 
-## Python
+## Stack Utilizado
 
-No Python foram utilizadas as seguintes bibliotecas
-
-- OS
-- Pandas
-- SQLAlchemy
-
-O code "Conector SQL" foi criado para incluir todas bases de dados ao SQL Server
-
-## SQL Server Express
-
-No arquivo "Tabelas", foram criadas as tabelas base no SQL Server
-
-<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/bb0cc640-b03b-4443-bbb6-bc5dd9d92ccc" />
-Sempre antes de rodar o arquivo Python, resetar as tabelas com o arquivo "Reset de tabelas"
+- Python (Pandas, SQLAlchemy, OS): Extração e tratamento de dados brutos.
+- SQL Server Express: Armazenamento e modelagem relacional.
+- Power BI: Visualização avançada, DAX e Analytics.
 
 ## Pipeline de dados
 
 <img width="1216" height="1294" alt="Image" src="https://github.com/user-attachments/assets/64eb7b8e-3b9f-4cb6-8aa6-02eba0b463c1" />
 
-## Inconsistências encontradas no tratamento de dados
-
-- Receitas com valore negativos --> Todas receitas dded produtos estão negativos, deve ser vasculhado se é algum bug, dados errados ou se a área está gerando prejuiso
-- A coluna "Conta_Nivel 4" tem valores duplicados que foram retirados
-- Desapesa não documentada no plano de contas, mas já usada "Comissão" --> Deve ser gerada uma reunião com o responsavel para ientificar em qual centro de custo e em qual melhor froma ddde documentar
-
 ## Vizualisação de dados (Power BI)
 
-O dashboard foi dividido em 4 vistas para perspectivas diferentes
+Dashboard desenvolvido com os principios de simplisidade, clareza e tomadda de decisão.
+Este dashboard foi estruturado em 4 camadas de profundidade:
 
 ### Visão Executiva
 
 Perspectiva: criada para servir a gestão a empresa para ver a saúde financeira da empresa em uma aba.
 
+<img width="1431" height="800" alt="Image" src="https://github.com/user-attachments/assets/ebebcbad-af16-47d2-a344-1bc12701af20" />
+
 ### Análise por Filial
 
-Perspectiva: para uma visão mais focada em cada filal foi esenvolvida esta aba.
+Perspectiva: Permite comparar o desempenho geográfico e alternar métricas de análise (Custos, Lucro, Eficiência) via botões dinâmicos.
+
+<img width="1433" height="797" alt="Image" src="https://github.com/user-attachments/assets/76679099-517f-4986-a775-5ce416374a8b" />
 
 ### DRE
 
-Perspectiva: uma aba onde pode ser visto e forma simples e rapida os lucros, despesas e custos em um gráfico de cascata.
+Perspectiva: Utiliza um gráfico de cascata (Waterfall) para demonstrar a erosão da receita até o lucro líquido, com suporte a Drill-down para três níveis de detalhamento do plano de contas.
 
-### Visão de análise
+<img width="1427" height="796" alt="Image" src="https://github.com/user-attachments/assets/efb67181-121e-4557-8e8c-3b063da77474" />
 
-Perspectica: desenvolvida com a intenção do uso para analistas, para verificar a fundo os dados de periodos e transações financeiras especificas.
+### Visão de Análise
+
+Perspectica: Tabela detalhada para analistas realizarem auditoria de transações específicas e conferência de datas e origens.
+
+<img width="1437" height="803" alt="Image" src="https://github.com/user-attachments/assets/6c64d5c9-7b72-426b-a1eb-fdeae9272140" />
+
+## Inconsistências
+
+- Receitas com valore negativos --> Todas receitas dded produtos estão negativos, deve ser vasculhado se é algum bug, dados errados ou se a área está gerando prejuiso
+- A coluna "Conta_Nivel 4" tem valores duplicados que foram retirados
+- Desapesa não documentada no plano de contas, mas já usada "Comissão" --> Deve ser gerada uma reunião com o responsavel para ientificar em qual centro de custo e em qual melhor froma ddde documentar
+
+## Insights
+
+

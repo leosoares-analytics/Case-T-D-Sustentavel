@@ -97,9 +97,9 @@ A estruturação das despesas é mais consistente, tendo um valor de Fixo superi
 
 Ranking de maior despesa para menor despesa:
 
-1# - Adiministrativo
-2# - Imoveis
-3# - Pessoal
+1# - Adiministrativo  
+2# - Imoveis  
+3# - Pessoal  
 
 #### Custos
 
@@ -107,21 +107,21 @@ Pode ser visto que ainda mantem o padrão de valores fixos superiores aos variav
 
 Ranking de maior custo para menor custo::
 
-1# - Fornecedores
-2# - Pessoal
-3# - Impostos
-4# - Transporte e Logistica
+1# - Fornecedores  
+2# - Pessoal  
+3# - Impostos  
+4# - Transporte e Logistica  
 
 ### Analise de Filiais
 
 Pode ser visto que os valores de lucro das filiais de Campos e Lagos são muito superiores ao valor de lucro de Niteroi
 
-- Média dos lucros de Campos + Lagos : 1,73 Milhões
+- Média dos lucros de Campos + Lagos : 1,73 Milhões  
 - Lucro ed Niteroi : 139,76 Mil
 
 Em relação a eficiência pode ser visto o seguinte padrão
 
-1# Campos - Com a maior eficiência e referência para outras filiais tendo eficiencia de 85% e margem de lucro de 45%.
-2# Lagos - Tem custos quase 2x maiores que de Campos, tendo um lucro 16% menor.
-3# Niteroi - Tem amenor margem de lucro (14%), um lucro 10x menor, custos e despesas 6x menor quano comparado com a filial de Campos.
+1# Campos - Com a maior eficiência e referência para outras filiais tendo eficiencia de 85% e margem de lucro de 45%.  
+2# Lagos - Tem custos quase 2x maiores que de Campos, tendo um lucro 16% menor.  
+3# Niteroi - Tem amenor margem de lucro (14%), um lucro 10x menor, custos e despesas 6x menor quano comparado com a filial de Campos.  
 

@@ -126,4 +126,4 @@ Em relação a eficiência pode ser visto o seguinte padrão
 2# Lagos - Tem custos quase 2x maiores que de Campos, tendo um lucro 16% menor.  
 3# Niteroi - Tem amenor margem de lucro (14%), um lucro 10x menor, custos e despesas 6x menor quano comparado com a filial de Campos.  
 
-## Panorama Geral ded Empresa
+## Panorama Geral da Empresa

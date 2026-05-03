@@ -58,9 +58,10 @@ Perspectica: Tabela detalhada para analistas realizarem auditoria de transaçõe
 
 ## Inconsistências
 
-- Receitas com valore negativos --> Todas receitas dded produtos estão negativos, deve ser vasculhado se é algum bug, dados errados ou se a área está gerando prejuiso
+- Receitas com valore negativos --> Todas receitas de produtos estão negativos, deve ser vasculhado se é algum bug, dados errados ou se a área está gerando prejuiso
 - A coluna "Conta_Nivel 4" tem valores duplicados que foram retirados
 - Desapesa não documentada no plano de contas, mas já usada "Comissão" --> Deve ser gerada uma reunião com o responsavel para ientificar em qual centro de custo e em qual melhor froma ddde documentar
+- A categoria "pessoas" está sendo citada em 3 categorias diferentes dentro de despesas e custos --> deve ser verificadod o motivo e difernças entre cada caso
 
 ## Insights
 
@@ -125,3 +126,4 @@ Em relação a eficiência pode ser visto o seguinte padrão
 2# Lagos - Tem custos quase 2x maiores que de Campos, tendo um lucro 16% menor.  
 3# Niteroi - Tem amenor margem de lucro (14%), um lucro 10x menor, custos e despesas 6x menor quano comparado com a filial de Campos.  
 
+## Panorama Geral ded Empresa

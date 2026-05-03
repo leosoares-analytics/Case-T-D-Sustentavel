@@ -64,4 +64,64 @@ Perspectica: Tabela detalhada para analistas realizarem auditoria de transaçõe
 
 ## Insights
 
+### Faturamento X Lucro
+
+Apesar do faturamento estar subindo em relação ao ano e mês anterior, o Lucro está em queda.
+
+### Margem de Lucro
+
+Pode ser visto que a margem de lucro geral está em queda.
+No periodo analisado pode ser visto que a media da margem de lucro já está chegando a 20% nos meses mais recentes, tendo periodos com margens negativos, enquanto pode ser visto que a margem de lucro que gerou mais lucro foi vista na filial de Lagos, sendo 30,91%
+
+### Receitas
+
+As receitas da empresa são 99,34% vindas da venda ed serviços, enquanto somente 0,26% são receitas vindas dda vendas dde produtos.
+
+Relativo as receitas vindas de serviços prestados, esta tem a divisão por serviços pontuais e continuos, sendo:
+
+- Continuos : 68% das receitas de serviços. 
+- Pontuais : 32% das receitas de serviçoes.
+
+Pode ser visto que a maior fonte de receitas da T&D Sustentavel vem de serviços (tanto continuos como pontuais)
+
+### Estrutura de custos e despesas
+
+Pode ser visto que os gastos com pessoal aparecem tanto em custos e despesas e na somatória apresenta um dos maiores valores, somente perdendo para fornecedores.
+A partir dessa informação deve ser feita uma analise dos métodos de contratação de pessoal, para determinar o motivo dessa distinção e se é possivel diminuir esse custo.
+
+#### Despesas
+
+Pode ser visto que na empresa o valores de despesas é mais enxuto em relação aos custos, representando somente 27,06% dos gastos totais (custos + despesas)
+
+A estruturação das despesas é mais consistente, tendo um valor de Fixo superior e valor variavel baixo, trazendo maior previsibilidade e controle.
+
+Ranking de maior despesa para menor despesa:
+
+1# - Adiministrativo
+2# - Imoveis
+3# - Pessoal
+
+#### Custos
+
+Pode ser visto que ainda mantem o padrão de valores fixos superiores aos variaveis, mas tendo valores superiores as despesas.
+
+Ranking de maior custo para menor custo::
+
+1# - Fornecedores
+2# - Pessoal
+3# - Impostos
+4# - Transporte e Logistica
+
+### Analise de Filiais
+
+Pode ser visto que os valores de lucro das filiais de Campos e Lagos são muito superiores ao valor de lucro de Niteroi
+
+- Média dos lucros de Campos + Lagos : 1,73 Milhões
+- Lucro ed Niteroi : 139,76 Mil
+
+Em relação a eficiência pode ser visto o seguinte padrão
+
+1# Campos - Com a maior eficiência e referência para outras filiais tendo eficiencia de 85% e margem de lucro de 45%.
+2# Lagos - Tem custos quase 2x maiores que de Campos, tendo um lucro 16% menor.
+3# Niteroi - Tem amenor margem de lucro (14%), um lucro 10x menor, custos e despesas 6x menor quano comparado com a filial de Campos.
 

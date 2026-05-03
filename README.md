@@ -72,8 +72,7 @@ Apesar do faturamento estar subindo em relação ao ano e mês anterior, o Lucro
 ### Margem de Lucro
 
 Pode ser visto que a margem de lucro geral está em queda.
-No periodo analisado pode ser visto que a media da margem de lucro já está chegando a 20% nos meses mais recentes, tendo periodos com margens negativos, enquanto pode ser visto que a margem de lucro que gerou mais lucro foi vista na filial de Lagos, sendo 30,91%
-
+No periodo analisado pode ser visto que a media da margem de lucro já está chegando a 20% nos meses mais recentes, tendo periodos com margens negativos.
 ### Receitas
 
 As receitas da empresa são 99,34% vindas da venda ed serviços, enquanto somente 0,26% são receitas vindas dda vendas dde produtos.

@@ -1,128 +1,209 @@
-# Case-T-D-Sustentavel
+# 💧 Case - T&D Sustentável | Pipeline de Dados e Dashboard Financeiro
 
-## Conteto e Negócio
+## 📌 Sobre o projeto
 
-A Greentech T&D Sustentável é uma empresa focada no combate ao desperdício de água, com meta de economizar 1 bilhão de litros até 2025. Com operações em mais de 30 cidades, a área financeira enfrentava um gargalo operacional: a consolidação de resultados levava até 5 dias por mês devido ao download manual de relatórios de cada filial.
+Este projeto foi desenvolvido como um case de Business Intelligence para a empresa **T&D Sustentável**, uma Greentech especializada em soluções para redução do desperdício de água.
 
-## Escopo
+O objetivo foi construir uma solução **end-to-end**, desde a extração e transformação dos dados até a criação de dashboards executivos para apoiar a tomada de decisão da diretoria.
 
-Desenvolvimento de uma infraestrutura de dados end-to-end para:
-- Automatizar o pipeline de dados das filiais.
-- Monitorar o fluxo de caixa e a saúde financeira.
-- Dar suporte à tomada de decisão para novos investimentos e expansão da rede.
+---
 
-## Glossário
+# 🎯 Problema de Negócio
 
-- Despesas: Gastos Administrativos
-- Custos: Gasto Operacionais
-- Receita: Receita de produtos e serviços que a empresa oferece
+A empresa possuía operações distribuídas em mais de 30 cidades e enfrentava um processo manual para consolidação dos resultados financeiros de cada filial.
 
-## Stack Utilizado
+Esse processo demandava até **cinco dias por mês**, comprometendo a agilidade das análises financeiras e dificultando decisões relacionadas a investimentos e expansão.
 
-- Python (Pandas, SQLAlchemy, OS): Extração e tratamento de dados brutos.
-- SQL Server Express: Armazenamento e modelagem relacional.
-- Power BI: Visualização avançada, DAX e Analytics.
+---
 
-## Pipeline de dados
+# 🚀 Solução Desenvolvida
 
-<img width="1216" height="1294" alt="Image" src="https://github.com/user-attachments/assets/64eb7b8e-3b9f-4cb6-8aa6-02eba0b463c1" />
+Foi construída uma infraestrutura de dados para automatizar todo o fluxo de consolidação das informações financeiras.
 
-## Vizualisação de dados (Power BI)
+A solução contempla:
 
-Dashboard desenvolvido com os principios de simplisidade, clareza e tomadda de decisão.
-Este dashboard foi estruturado em 4 camadas de profundidade:
+* Extração automática dos dados das filiais;
+* Tratamento e padronização das informações;
+* Modelagem relacional em banco de dados;
+* Desenvolvimento de indicadores financeiros;
+* Construção de dashboards interativos no Power BI.
 
-### Visão Executiva
+---
 
-Perspectiva: criada para servir a gestão a empresa para ver a saúde financeira da empresa em uma aba.
+# 📚 Glossário
 
-<img width="1431" height="800" alt="Image" src="https://github.com/user-attachments/assets/ebebcbad-af16-47d2-a344-1bc12701af20" />
+| Termo    | Definição                                                          |
+| -------- | ------------------------------------------------------------------ |
+| Receita  | Receitas provenientes da venda de produtos e prestação de serviços |
+| Custos   | Gastos diretamente relacionados à operação                         |
+| Despesas | Gastos administrativos e de suporte                                |
 
-### Análise por Filial
+---
 
-Perspectiva: Permite comparar o desempenho geográfico e alternar métricas de análise (Custos, Lucro, Eficiência) via botões dinâmicos.
+# 🛠️ Tecnologias Utilizadas
 
-<img width="1433" height="797" alt="Image" src="https://github.com/user-attachments/assets/76679099-517f-4986-a775-5ce416374a8b" />
+* **Python**
 
-### DRE
+  * Pandas
+  * SQLAlchemy
+  * OS
 
-Perspectiva: Utiliza um gráfico de cascata (Waterfall) para demonstrar a erosão da receita até o lucro líquido, com suporte a Drill-down para três níveis de detalhamento do plano de contas.
+* **SQL Server Express**
 
-<img width="1427" height="796" alt="Image" src="https://github.com/user-attachments/assets/efb67181-121e-4557-8e8c-3b063da77474" />
+* **Power BI**
 
-### Visão de Análise
+  * Modelagem
+  * DAX
+  * Visualizações interativas
 
-Perspectica: Tabela detalhada para analistas realizarem auditoria de transações específicas e conferência de datas e origens.
+---
 
-<img width="1437" height="803" alt="Image" src="https://github.com/user-attachments/assets/6c64d5c9-7b72-426b-a1eb-fdeae9272140" />
+# 🏗️ Arquitetura do Pipeline
 
-## Inconsistências
+<img width="1216" height="1294" src="https://github.com/user-attachments/assets/64eb7b8e-3b9f-4cb6-8aa6-02eba0b463c1"/>
 
-- Receitas com valore negativos --> Todas receitas de produtos estão negativos, deve ser vasculhado se é algum bug, dados errados ou se a área está gerando prejuiso
-- A coluna "Conta_Nivel 4" tem valores duplicados que foram retirados
-- Desapesa não documentada no plano de contas, mas já usada "Comissão" --> Deve ser gerada uma reunião com o responsavel para ientificar em qual centro de custo e em qual melhor froma ddde documentar
-- A categoria "pessoas" está sendo citada em 3 categorias diferentes dentro de despesas e custos --> deve ser verificadod o motivo e difernças entre cada caso
+---
 
-## Insights
+# 📊 Dashboard
 
-### Faturamento X Lucro
+O dashboard foi desenvolvido seguindo princípios de simplicidade, clareza visual e apoio à tomada de decisão.
 
-Apesar do faturamento estar subindo em relação ao ano e mês anterior, o Lucro está em queda.
+A navegação foi estruturada em quatro níveis.
 
-### Margem de Lucro
+## Visão Executiva
 
-Pode ser visto que a margem de lucro geral está em queda.
-No periodo analisado pode ser visto que a media da margem de lucro já está chegando a 20% nos meses mais recentes, tendo periodos com margens negativos.
-### Receitas
+Apresenta os principais KPIs financeiros da empresa em uma única tela.
 
-As receitas da empresa são 99,34% vindas da venda ed serviços, enquanto somente 0,26% são receitas vindas dda vendas dde produtos.
+<img width="1431" height="800" src="https://github.com/user-attachments/assets/ebebcbad-af16-47d2-a344-1bc12701af20"/>
 
-Relativo as receitas vindas de serviços prestados, esta tem a divisão por serviços pontuais e continuos, sendo:
+---
 
-- Continuos : 68% das receitas de serviços. 
-- Pontuais : 32% das receitas de serviçoes.
+## Análise por Filial
 
-Pode ser visto que a maior fonte de receitas da T&D Sustentavel vem de serviços (tanto continuos como pontuais)
+Permite comparar indicadores financeiros entre as unidades utilizando botões dinâmicos para alternar métricas como:
 
-### Estrutura de custos e despesas
+* Receita
+* Custos
+* Lucro
+* Eficiência
 
-Pode ser visto que os gastos com pessoal aparecem tanto em custos e despesas e na somatória apresenta um dos maiores valores, somente perdendo para fornecedores.
-A partir dessa informação deve ser feita uma analise dos métodos de contratação de pessoal, para determinar o motivo dessa distinção e se é possivel diminuir esse custo.
+<img width="1433" height="797" src="https://github.com/user-attachments/assets/76679099-517f-4986-a775-5ce416374a8b"/>
 
-#### Despesas
+---
 
-Pode ser visto que na empresa o valores de despesas é mais enxuto em relação aos custos, representando somente 27,06% dos gastos totais (custos + despesas)
+## Demonstração do Resultado (DRE)
 
-A estruturação das despesas é mais consistente, tendo um valor de Fixo superior e valor variavel baixo, trazendo maior previsibilidade e controle.
+Visualização em Waterfall com Drill Down de três níveis do plano de contas, permitindo analisar a composição do lucro líquido.
 
-Ranking de maior despesa para menor despesa:
+<img width="1427" height="796" src="https://github.com/user-attachments/assets/efb67181-121e-4557-8e8c-3b063da77474"/>
 
-1# - Adiministrativo  
-2# - Imoveis  
-3# - Pessoal  
+---
 
-#### Custos
+## Visão Analítica
 
-Pode ser visto que ainda mantem o padrão de valores fixos superiores aos variaveis, mas tendo valores superiores as despesas.
+Tabela detalhada destinada à auditoria de lançamentos financeiros e validação de transações.
 
-Ranking de maior custo para menor custo::
+<img width="1437" height="803" src="https://github.com/user-attachments/assets/6c64d5c9-7b72-426b-a1eb-fdeae9272140"/>
 
-1# - Fornecedores  
-2# - Pessoal  
-3# - Impostos  
-4# - Transporte e Logistica  
+---
 
-### Analise de Filiais
+# 🧹 Data Quality
 
-Pode ser visto que os valores de lucro das filiais de Campos e Lagos são muito superiores ao valor de lucro de Niteroi
+Durante a preparação dos dados foram identificadas algumas inconsistências importantes:
 
-- Média dos lucros de Campos + Lagos : 1,73 Milhões  
-- Lucro ed Niteroi : 139,76 Mil
+* Receitas de produtos registradas com valores predominantemente negativos, exigindo validação junto à área financeira.
+* Registros duplicados na dimensão de contas (Nível 4), posteriormente removidos.
+* Utilização da categoria **"Comissão"** sem correspondente no plano de contas oficial.
+* Classificações relacionadas à categoria **Pessoas** distribuídas em diferentes grupos contábeis, indicando necessidade de padronização.
 
-Em relação a eficiência pode ser visto o seguinte padrão
+---
 
-1# Campos - Com a maior eficiência e referência para outras filiais tendo eficiencia de 85% e margem de lucro de 45%.  
-2# Lagos - Tem custos quase 2x maiores que de Campos, tendo um lucro 16% menor.  
-3# Niteroi - Tem amenor margem de lucro (14%), um lucro 10x menor, custos e despesas 6x menor quano comparado com a filial de Campos.  
+# 💡 Principais Insights
 
-## Panorama Geral da Empresa
+## Financeiro
+
+* O faturamento apresenta tendência de crescimento, porém o lucro líquido vem diminuindo ao longo do período analisado.
+* A margem de lucro demonstra queda consistente, chegando próxima de 20% nos meses mais recentes e apresentando períodos negativos.
+
+## Receitas
+
+* 99,34% da receita é proveniente da prestação de serviços.
+* Apenas 0,26% corresponde à venda de produtos.
+
+Entre os serviços:
+
+* **68%** são contratos contínuos;
+* **32%** são serviços pontuais.
+
+Esse cenário evidencia uma forte dependência da receita de serviços.
+
+## Custos e Despesas
+
+* Custos representam aproximadamente 73% dos gastos totais.
+* Despesas representam cerca de 27%.
+
+Os maiores grupos de custos são:
+
+1. Fornecedores
+2. Pessoal
+3. Impostos
+4. Transporte e Logística
+
+Os maiores grupos de despesas são:
+
+1. Administrativo
+2. Imóveis
+3. Pessoal
+
+Também foi identificado que gastos com pessoal aparecem classificados tanto como custos quanto como despesas, sugerindo oportunidade para revisão da política de classificação contábil.
+
+## Desempenho das Filiais
+
+As filiais de **Campos** e **Lagos** concentram os maiores lucros da empresa.
+
+Em relação à eficiência operacional:
+
+🥇 Campos
+
+* Margem de lucro de aproximadamente 45%;
+* Eficiência de 85%;
+* Benchmark para as demais unidades.
+
+🥈 Lagos
+
+* Custos significativamente superiores aos de Campos;
+* Lucro cerca de 16% menor.
+
+🥉 Niterói
+
+* Menor margem de lucro (14%);
+* Lucro aproximadamente dez vezes inferior ao de Campos.
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+📁 data
+📁 scripts
+📁 sql
+📁 powerbi
+📁 docs
+README.md
+```
+
+---
+
+# 🎯 Resultados
+
+Este projeto demonstra a construção completa de uma solução de Business Intelligence, abrangendo:
+
+* Engenharia de Dados
+* Modelagem Relacional
+* Data Quality
+* ETL
+* Visualização de Dados
+* Storytelling com Dados
+* Geração de Insights para Negócio
+
+Todo o fluxo foi desenvolvido com foco em apoiar decisões estratégicas por meio de dados confiáveis e visualizações intuitivas.

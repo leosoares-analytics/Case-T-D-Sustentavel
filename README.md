@@ -10,7 +10,7 @@ O objetivo foi construir uma solução **end-to-end**, desde a extração e tran
 
 # 🎯 Problema de Negócio
 
-A empresa possuía operações distribuídas em mais de 30 cidades e enfrentava um processo manual para consolidação dos resultados financeiros de cada filial.
+A empresa possuía operações distribuídas em 3 cidades e enfrentava um processo manual para consolidação dos resultados financeiros de cada filial.
 
 Esse processo demandava até **cinco dias por mês**, comprometendo a agilidade das análises financeiras e dificultando decisões relacionadas a investimentos e expansão.
 
@@ -74,7 +74,7 @@ A navegação foi estruturada em quatro níveis.
 
 Apresenta os principais KPIs financeiros da empresa em uma única tela.
 
-<img width="1431" height="800" src="https://github.com/user-attachments/assets/ebebcbad-af16-47d2-a344-1bc12701af20"/>
+<img width="1436" height="805" alt="Image" src="https://github.com/user-attachments/assets/2c7bdb8d-3030-4e40-b1a3-d68d9c7f3423" />
 
 ---
 

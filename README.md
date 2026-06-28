@@ -178,32 +178,3 @@ Em relação à eficiência operacional:
 
 * Menor margem de lucro (14%);
 * Lucro aproximadamente dez vezes inferior ao de Campos.
-
----
-
-# 📂 Estrutura do Projeto
-
-```text
-📁 data
-📁 scripts
-📁 sql
-📁 powerbi
-📁 docs
-README.md
-```
-
----
-
-# 🎯 Resultados
-
-Este projeto demonstra a construção completa de uma solução de Business Intelligence, abrangendo:
-
-* Engenharia de Dados
-* Modelagem Relacional
-* Data Quality
-* ETL
-* Visualização de Dados
-* Storytelling com Dados
-* Geração de Insights para Negócio
-
-Todo o fluxo foi desenvolvido com foco em apoiar decisões estratégicas por meio de dados confiáveis e visualizações intuitivas.
